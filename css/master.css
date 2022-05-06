@@ -13,9 +13,8 @@ hr {
 
 h1 {
   color: #ff0059;
-  /* font-size: xx-large; */
-  /* font-style: italic; */
   font-family: Lucida Handwriting;
+  
 }
 
 h3 {
@@ -50,11 +49,14 @@ h3 {
 }
 .profile {
   color: #000000;
+  border-style:double;
+  border-radius: 300px;
+  border-width: 15px;
   transition: color 0.3s;
   text-decoration: none;
 }
 .profile:hover {
-  color: #fff6f9;
+  color: #5d0024;
 
-  border-width: 10px;
+  border-width: 15px;
 }
