@@ -31,21 +31,30 @@ h3 {
 
   font-family: "Lucida Console", "Courier New", monospace;
 }
-.btn-1:hover::after {
+/* .btn-1:hover::after {
   color: #ff0059;
   width: 100%;
-}
-a {
+} */
+.a {
   box-shadow: inset 0 0 0 0 #54b3d6;
   color: #000000;
   padding: 0 0.25rem;
   margin: 0 -0.25rem;
   transition: color 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
   text-decoration: none;
+  text-decoration: dashed;
 }
-a:hover {
+.a:hover {
   color: #fff;
   box-shadow: inset 200px 0 0 0 #54b3d6;
 }
+.profile {
+  color: #000000;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+.profile:hover {
+  color: #fff6f9;
 
-
+  border-width: 10px;
+}
