@@ -3,7 +3,7 @@ body {
 }
 
 hr {
-  border-style: dotted none none;
+  border-style: dotted none none ;
   width: 10%;
   height: 0px;
   border-radius: 00px;
@@ -23,6 +23,7 @@ h3 {
   /* font-size: xx-large; */
   /* font-style: italic; */
   font-family: Lucida Handwriting;
+  text-decoration: underline;
 }
 
 .p3 {
