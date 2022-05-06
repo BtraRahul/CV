@@ -1,12 +1,32 @@
 body {
-    background-color: #ffe2e2;
-  }
+  background-color: #ffe2e2;
+}
 
-  hr {
-    border-style: dotted none none;
-    width: 10%;
-    height: 0px;
-    border-radius: 00px;
-    border-color: grey;
-    border-width: 5px;
-  }
+hr {
+  border-style: dotted none none;
+  width: 10%;
+  height: 0px;
+  border-radius: 00px;
+  border-color: grey;
+  border-width: 5px;
+}
+
+h1 {
+  color: #ff0059;
+  /* font-size: xx-large; */
+  /* font-style: italic; */
+  font-family: Lucida Handwriting;
+}
+
+h3 {
+  color: #ff0059;
+  /* font-size: xx-large; */
+  /* font-style: italic; */
+  font-family: Lucida Handwriting;
+}
+
+.p3 {
+  /* font-family: Lucida Handwriting; */
+
+  font-family: "Lucida Console", "Courier New", monospace;
+}
