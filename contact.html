@@ -24,12 +24,12 @@
       method="post"
       enctype="text/plain"
     >
-      <label for="">Name:</label>
+      <label for="user_name">Name:</label>   <!-- label tag is used to make the description name( here the name is " Name: ") toglleable,i.e click on it to have the cursor in the text area or toggle the check box-->
       <input type="checkbox" name="check" id="" />
-      <input type="text" name="Your name: " />
+      <input type="text" name="Your name:" id="user_name" placeholder="Enter Name Here...." />
       <br />
-      <label for="">Password:</label>
-      <input type="password" name="" id="" /> <br />
+      <label for="user_pass">Password:</label>
+      <input type="password" name="" id="user_pass" placeholder="Enter Password here"/> <br />
       <!-- <input type="radio" name="" id="" /> <br /> -->
       <!-- <input type="date" /> <br /> -->
       <!-- <input type="file" /> <br /> -->
@@ -45,8 +45,10 @@
       <br />
       <hr />
       <center>
-        <label for="">submit here:</label>
-        <input type="submit" name="" id="" value="click to sibmit" /> <br />
+        <label for="user_submit">submit here:</label>
+        <input type="submit" name="" id="user_submit" value="click to sibmit" /> <br />
+        <label for="user_reset">reset</label>
+        <input type="reset" name="" id="user_reset">
       </center>
     </form>
   </body>
