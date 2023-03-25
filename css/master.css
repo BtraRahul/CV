@@ -1,45 +1,56 @@
 body {
-  background-color: #ffe2e2;
+  background-color: #8ccfb9;
   /* margin: 0;
   padding: 0; */
 }
+
 .nav {
-  width: 100%;
+  width: 85%;
   margin: 0;
   padding: 0;
-}
-.flex {
-  position:fixed ;
-  width:100%;
-  padding: 0px 0px 0px 0px;
-  margin : 0px;
-  background-color: #3c3d3da4;
-  display: flex;
   
 }
-h2{
+
+.flex {
+  position: fixed;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  margin: 0px;
+  background-color: #b6f3f382;
+  display: flex;
+  
+
+}
+
+
+
+h2 {
   font-family: cursive;
   width: 200px;
 }
-.main-table{
+
+.main-table {
   padding-top: 100px;
   text-align: center;
   display: flex;
   justify-content: center;
 }
-.unav li{
+
+.unav li {
   padding: 10px;
 }
+
 .unav {
   display: flex;
   list-style: none;
   align-items: flex-end;
   justify-content: flex-end
 }
+
 hr {
   border-style: dotted none none;
-  width: 10%;
-  height: 0px;
+  width: 70%;
+  height: 5px;
   border-radius: 00px;
   border-color: grey;
   border-width: 5px;
@@ -63,6 +74,7 @@ h3 {
 
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
 /* .btn-1:hover::after {
   color: #ff0059;
   width: 100%;
@@ -75,11 +87,14 @@ a {
   transition: color 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
   text-decoration: none;
   text-decoration: dashed;
+
 }
+
 a:hover {
   color: #fff;
   box-shadow: inset 200px 0 0 0 #54b3d6;
 }
+
 .profile {
   color: #000000;
   border-style: double;
@@ -88,6 +103,7 @@ a:hover {
   transition: color 0.3s;
   text-decoration: none;
 }
+
 .profile:hover {
   color: #5d0024;
 
@@ -104,6 +120,7 @@ a:hover {
   text-decoration: none;
   text-decoration: dashed;
 }
+
 #u:hover {
   color: rgba(245, 245, 220, 0);
   box-shadow: inset 200px 0 0 0 #54b3d600;
