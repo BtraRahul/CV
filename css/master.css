@@ -19,6 +19,9 @@ body {
   margin: 0px;
   background-color: #b6f3f382;
   display: flex;
+  border: #000000;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 
