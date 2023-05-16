@@ -1,22 +1,25 @@
 body {
   background-color: #8ccfb9;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+
+  /* padding: 5px; */
 }
 
 .nav {
-  width: 85%;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
-
+  width: 83%;
+  margin: 5px;
+  /* margin-left: 0;
+  margin-right: 0; */
+  /* padding: 0; */
+  
 }
 
 .flex {
+  margin: 10px;
   position: fixed;
   width: 100%;
-  padding: 0px 0px 10px 10px;
-  margin: 0px;
+  padding: 0px 10px 0px 10px;
   background-color: #b6f3f382;
   display: flex;
   border: #000000;
@@ -24,11 +27,26 @@ body {
   border-bottom-left-radius: 50px;
 }
 
+div {
+  margin: 0;
+  padding: 5px;
+}
 
+#home {
+  background-color: rgb(132, 201, 200);
+  /* background-color: blue; */
+  margin: 0px;
+}
+
+.page_two {
+  background-color: #82adb1;
+  /* background-color: red; */
+  margin: 0;
+}
 
 h2 {
   font-family: cursive;
-  width: 200px;
+  width: 300px;
 }
 
 .main-table {
@@ -61,14 +79,14 @@ hr {
 
 h1 {
   color: #ff0059;
-  font-family: Lucida Handwriting;
+  /* font-family: Lucida Handwriting; */
 }
 
 h3 {
   color: #ff0059;
   /* font-size: xx-large; */
   /* font-style: italic; */
-  font-family: Lucida Handwriting;
+  /* font-family: Lucida Handwriting; */
   text-decoration: underline;
 }
 
